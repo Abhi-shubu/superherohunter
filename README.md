@@ -6,3 +6,4 @@ you have to 1st create a html file .
 Then create a style file like Style.css andadd required code to style our page.
 
 create a javascript file to add funcationality.
+you get your api and public private key from https://developer.marvel.com/account.
