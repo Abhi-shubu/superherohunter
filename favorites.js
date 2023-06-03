@@ -12,7 +12,7 @@ function removeFromFavorites(li, superheroId) {
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
     const updatedFavorites = favorites.filter(superhero => superhero.id !== superheroId);
     localStorage.setItem('favorites', JSON.stringify(updatedFavorites));
-    
+    navigateTohome();
 }
   
   // Function to display favorite superheroes on the favorites page
